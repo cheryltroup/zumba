@@ -12,17 +12,17 @@
     <title>Zumba with Angie</title>
 
     <!-- Bootstrap Core CSS -->
-    <!--<link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet">
--->
-    <!-- Custom CSS -->
-    <link href="assets/stylesheets/agency.scss" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <!--<link href="assets/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
- -->   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">  -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="assets/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/creative.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,17 +30,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -52,9 +49,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
                     <li>
                         <a class="page-scroll" href="#events">Events</a>
                     </li>
@@ -62,7 +56,7 @@
                         <a class="page-scroll" href="#schedule">Schedule</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resources">Resources</a>
+                        <a class="page-scroll" href="#resources">Music</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Bio</a>
@@ -77,63 +71,55 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Zumba with Angie!</div>
-            <!-- <div class="intro-heading">It's Nice To Meet You</div> 
-                <a href="events" class="page-scroll btn btn-xl">?Contact?</a> -->
+        <div class="header-content">
+            <div class="header-content-inner">
+       <!--         <h1>Welcome!</h1> 
+                        <hr> -->
+                
+         <!--       <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>  -->
+                <a href="#events" class="btn btn-primary btn-xl page-scroll">Join us on June 11!<br>Click here!</br></a>
             </div>
         </div>
     </header>
 
-    <!-- Events Section -->
-    <section id="events" class="grad1">
+    <section id="events" class="bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Events</h2>
-                    <h3 class="section-subheading text-muted">Mark your calendars for the next Zumbathon!</h3>
+            <!--    <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                    <h2 class="section-heading text-center">Mark your calendars for the next Zumbathon!</h2>
+                    <hr class="light">
+               <!--     <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+           <!--         <a href="#services" class="page-scroll btn btn-default btn-xl">Get Started!</a>  -->
 
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="assets/crowdomca.jpg" alt="" height="800" width="400"> 
+                    <img class="img-responsive img-border-left" src="assets/angieandflygirls.jpg" alt="" height="800" width="600"> 
                 </div>
 
                 <div class="col-md-6">
-                  <h4> Zumbathon for Charity </h4>
-                
-                   <p><b>Saturday, June 11, 2016</b></p>
-                   <p><b>2:00pm - 5:00pm</b> </p>
-                   <p><b>Finnish Brotherhood Hall </b></p>
-                   <p><b>1970 Chestnut Street <a href="https://goo.gl/maps/12eXK7ofxv62"><b>(map)</a></p></b>
-                   <p><b>Berkeley, CA 94703</p></b>
+                  <h2> Zumbathon for Charity </h2>
+                   <h3><b>Saturday, June 11, 2016<h3></b>
+                   <h3><b>2:00pm - 5:00pm</h3> </b>
+                   <h3><a href="https://www.zumba.com/en-US/event/view/zumbathon-charity-event-for-berkeley-housing-and-food-project"><b>Get your tickets and more information here!</b></a> <h3>
+                   <h3><b>Finnish Brotherhood Hall </b></h3>
+                   <h3><b>1970 Chestnut Street<a href="https://goo.gl/maps/12eXK7ofxv62"><b> (map)</a></h3></b>
+                   <h3><b>Berkeley, CA 94703</h3></b>                
 
-                <a href="https://www.zumba.com/en-US/event/view/zumbathon-charity-event-for-berkeley-housing-and-food-project"><b>Get your tickets and more information here!</b></a>
                 </div>
-            
-            </div>
-                </div>
-            </div>
+            </div> 
         </div>
-
-         
     </section>
 
-    <!-- Schedule Grid Section -->
     <section id="schedule" class="grad1">
-   <!-- <section id="schedule" class="bg-light-gray">   -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Schedule</h2>
-                    <h3 class="section-subheading text-muted">Angie's Current Schedule</h3>
-
-
-                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ff9966&amp;src=no9js99ul26vdtoll1ad62gg2k%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="500" frameborder="0" scrolling="no"></iframe>    
+                    <h2 class="section-heading">Angie's Schedule</h2>
+            
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ff9966&amp;src=no9js99ul26vdtoll1ad62gg2k%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="500" frameborder="0" scrolling="no"></iframe>    
 
  
-            <div class="col-md-6">
+   <!--         <div class="col-md-6">
                 <p><b>TUESDAY and THURSDAY @ 5:45 pm - 6:45 pm </b></p>
                 <a href="http://lakemerrittdancecenter.org/"><b>Veteran's Memorial Building - Lounge Room</b></a>
 
@@ -154,25 +140,32 @@
                 <a href="http://www.ymcaeastbay.org/Locations/downtown-oakland-ymca.htm"><b>Oakland YMCA</b></a>
                 <p><b>2350 Broadway Avenue, Oakland <a href="https://goo.gl/maps/A9cf3Cx8ZTM2"><b>(map)</b></a></b> </p>
                 <p><b>membership or guest pass required</p></b>
-            </div>
+            </div>   -->
             </div>
         </div>
     </div>
-     </section> 
-
-
-    <!-- Resources Section -->
+</section>  
+    
+    <!-- Resources/Music Section -->
     <section id="resources" class="grad2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Resources</h2>
-                    <h3 class="section-subheading text-muted"><p><b>Current Playlist </b></p>Disclaimer: These videos are of other instructors using same choreo as used in our class!</h3>
-                  
+                    <h2 class="section-heading">Current Playlist </h2>
+                    <h3 class="section-subheading text-muted"><p><b>Disclaimer: These videos are of other instructors using same choreo as used in our class!</b></h3>   
                 </div>
             </div>
 
             <div class="row">
+                <div class="col-md-4 col-sm-6 resource-item">
+            
+                   <iframe width="300" height="250" src="https://www.youtube.com/embed/videoseries?list=PLGA3kpcDJXoA48YKJ65Bk0M-kFEn1jcVV" frameborder="0" allowfullscreen></iframe>
+                
+                    <div class="resource-caption">
+                         <p class="text-muted">Full Playlist</p>
+                    </div>
+                </div>
+
                 <div class="col-md-4 col-sm-6 resource-item">
             
                     <iframe width="300" height="250" src="https://www.youtube.com/embed/upafaDyqgm4?list=PLGA3kpcDJXoA48YKJ65Bk0M-kFEn1jcVV" frameborder="0" allowfullscreen></iframe>   
@@ -318,7 +311,7 @@
                     <iframe width="300" height="250" src="https://www.youtube.com/embed/Ab4u07PpNE8" frameborder="0" allowfullscreen></iframe>
                 
                     <div class="resource-caption"> 
-                        <p class="text-muted">Suenan Los Cueros (Salsa)</p>
+                        <p class="text-muted">Fire - Ho'onu'a</p>
                     </div>
                 </div>
 
@@ -334,10 +327,7 @@
        </div>   
     </section>
 
-
-
-
-    <!-- About Angie -->
+     <!-- About Angie -->
     <section id="about" class="ltor">
         <div class="container">
             <div class="row">
@@ -347,8 +337,8 @@
             </div>
 
             <div class="col-md-4">
-                    <img class="img-thumbnail img-border-left" src="assets/angieshin.jpg" alt="" height="600" width="500">
-                </div>
+                <img class="img-rounded img-border-left" src="assets/angieshin.jpg" alt="" height="560" width="365">
+            </div>
                 <div class="col-md-8"> 
                     <p>For as long as I can remember, I loved dance.  I inherited this from my father who happens to be deaf, but nonetheless, a great dancer.  He danced from his heart, and would spontaneously do so in the grocery store, walking to the car, at my school - and everyone watching would smile with joy.  The only music needed was from his heart and I absolutely love that about him. </p>
                     <p> The only dance training I ever had was "Obon" - traditional Japanese dance.  Wearing a kimono and fan tucked into my obi, I'd train for the annual parade - I was 5 years old.  I was a serious student, I put my whole heart into every step and remember to this day how amazing it felt to perform, but lessons were expensive, so, I switched to organized sports where my appreciation for fitness grew.</p>
@@ -360,87 +350,56 @@
     </section>
 
     
-    <!-- Contact Section -->
-    <section id="contact">
+  <!--      <div class="container">
+   <!-- <section id="contact" class="back">  ->
+
+        <div class="container text-center">
+            <div class="section-heading">
+            <h2>Thank you for visiting.</h2>
+       <!--         <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>   -->
+     <!--       </div>
+        </div>   -->
+      <section id="contact" class="grad2">
+  <!--  <aside class="bg-secondary">    -->
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2> Thank you for visiting!</h2>
+                <a href="#schedule" class="btn btn-default btn-xl wow tada">Join Angie for Zumba!</a>
+            </div>
+        </div>
+    </aside>
+
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Send Message to Angie</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="section-heading">
+                      <h2>Join Us!</h2>
+                    <h2></h2>
+                    <hr class="secondary">
+                      
+        <!--         <p></p>   -->
+        <!--        </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>123-456-6789</p>
+                </div>                              -->
+                <div class="text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:cheryltroup@gmail.com">
+                        Email me!</a></p>
                 </div>
+                 </div>  
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        </div>
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Digital Mind 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/angiehiranoshin"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-  
 
     <!-- jQuery -->
     <script src="assets/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-   <!-- <script src="assets/bootstrap.min.js"></script>
-   -->
+   <script src="assets/bootstrap.min.js"></script>
+   
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="assets/classie.js"></script>
@@ -451,8 +410,7 @@
     <script src="assets/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="assets/agency.js"></script>
-
+    <script src="assets/creative.js"></script>
 </body>
 
 </html>
