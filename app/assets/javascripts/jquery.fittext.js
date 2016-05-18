@@ -31,11 +31,10 @@
       };
 
       // Call once to set.
-      resizer();
+     resizer();
 
       // Call on resize. Opera debounces their resize by default.
-      $(window).on('resize.fittext orientationchange.fittext', resizer);
-
+     $(window).on('resize.fittext orientationchange.fittext', resizer)
     });
 
   };
