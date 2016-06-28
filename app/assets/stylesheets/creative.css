@@ -273,7 +273,7 @@ ul.social-buttons {
     li {
         a {
             display: block;
-            background-color: @gray-darkest;
+            background-color: gray-darkest;
             height: 40px;
             width: 40px;
             border-radius: 100%;
@@ -287,7 +287,7 @@ ul.social-buttons {
             &:hover,
             &:focus,
             &:active {
-                background-color: @brand-primary;
+                background-color: brand-primary;
             }
         }
     }
